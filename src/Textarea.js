@@ -6,6 +6,9 @@ class Textarea extends React.Component {
         return (
             <div>
                 <h3>Text Area</h3>
+                <label>
+                <input type="text" name="text" />
+                </label>
             </div>
         )
     }
