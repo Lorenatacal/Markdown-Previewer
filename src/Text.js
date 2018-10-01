@@ -37,7 +37,7 @@ class Text extends React.Component {
         return (
             <StyledContainer>
                 <StyledTitle>Text Area</StyledTitle>
-                <StyledTextArea type="hidden" />
+                <StyledTextArea type="text" />
             </StyledContainer>
         )
     }
