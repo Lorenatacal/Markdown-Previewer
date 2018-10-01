@@ -15,7 +15,7 @@ const StyledContainer = styled.div`
     resize: none;
     border-radius: 20px;
     padding: 0.25em;
-    margin: 2em;
+    margin: 6em;
     margin-left: 25px;
     margin-right: 25px;
     align: center;

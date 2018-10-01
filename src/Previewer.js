@@ -14,7 +14,7 @@ const StyledContainer = styled.div`
     resize: none;
     border-radius: 20px;
     padding: 0.25em;
-    margin: 2em;
+    margin: 6em;
     margin-left: 25px;
     margin-right: 25px;
     align: center;
@@ -31,15 +31,13 @@ const StyledPreviewer = styled.textarea`
     height: 70%;
 `;
 
-class Previewer extends React.Component {
-    render() {
-        return (
-            <StyledContainer>
-                <StyledTitle>Previewer</StyledTitle>
-                <StyledPreviewer />
-            </StyledContainer>
-        )
-    }
+const Previewer = function () {
+    return (
+        <StyledContainer>
+            <StyledTitle>Previewer</StyledTitle>
+            <StyledPreviewer />
+        </StyledContainer>
+    )
 }
 
 export default Previewer;
