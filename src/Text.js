@@ -33,11 +33,27 @@ const StyledTextArea = styled.textarea`
 `;
 
 class Text extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            value: ''
+        };
+
+        this.handleChange = this.handleChange.bind(this);
+    }
+
+    handleChange(event) {
+        this.setState({
+            value: event.target.value
+        });
+        console.log(this.state.value, "value");
+    }
+
     render() {
         return (
             <StyledContainer>
                 <StyledTitle>Text Area</StyledTitle>
-                <StyledTextArea type="text" />
+                <StyledTextArea onChange={this.handleChange} />
             </StyledContainer>
         )
     }

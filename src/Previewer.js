@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Text from './Text';
 import styled from 'styled-components';
 
 const StyledContainer = styled.div`
@@ -26,7 +27,7 @@ const StyledTitle = styled.h3`
     text-align: center;
 `;
 
-const StyledPreviewer = styled.textarea`
+const StyledPreviewer = styled.div`
     width: 80%;
     height: 70%;
 `;
