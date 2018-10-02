@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Previewer from './Previewer';
 import styled from 'styled-components';
 
 const StyledContainer = styled.div`
@@ -42,11 +43,11 @@ class Text extends React.Component {
         this.handleChange = this.handleChange.bind(this);
     }
 
+
     handleChange(event) {
         this.setState({
             value: event.target.value
         });
-        console.log(this.state.value, "value");
     }
 
     render() {
