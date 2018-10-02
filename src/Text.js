@@ -48,14 +48,18 @@ class Text extends React.Component {
         this.setState({
             value: event.target.value
         });
+        console.log(this.state.value, "value")
     }
 
     render() {
         return (
-            <StyledContainer>
-                <StyledTitle>Text Area</StyledTitle>
-                <StyledTextArea onChange={this.handleChange} />
-            </StyledContainer>
+            <div>
+                <StyledContainer>
+                    <StyledTitle>Text Area</StyledTitle>
+                    <StyledTextArea onChange={this.handleChange} />
+                </StyledContainer>
+                <Previewer input={this.state.value} />
+            </div>
         )
     }
 }

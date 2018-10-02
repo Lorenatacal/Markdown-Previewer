@@ -9,7 +9,6 @@ const App = function() {
     <div className="App">
       <Header />
       <Text />
-      <Previewer />
     </div>
   );
 }
