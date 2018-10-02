@@ -29,7 +29,7 @@ const StyledTitle = styled.h3`
 
 const StyledTextArea = styled.textarea`
     width: 80%;
-    height: 71%;
+    height: 70%;
 `;
 
 class Text extends React.Component {
