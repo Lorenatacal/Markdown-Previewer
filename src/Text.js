@@ -48,7 +48,6 @@ class Text extends React.Component {
         this.setState({
             value: event.target.value
         });
-        console.log(this.state.value, "value")
     }
 
     render() {
