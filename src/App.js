@@ -3,8 +3,9 @@ import Text from './Text'
 import Header from './Header'
 import './App.css';
 import Previewer from './Previewer';
+import ReactMarkdown from 'react-markdown';
 
-const App = function() {
+const App = props => {
   return (
     <div className="App">
       <Header />
