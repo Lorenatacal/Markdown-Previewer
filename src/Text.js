@@ -37,7 +37,8 @@ class Text extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            value: ''
+            value: '# This is a Header',
+            subHeader: '## This is a subHeader'
         };
 
         this.handleChange = this.handleChange.bind(this);
@@ -55,7 +56,7 @@ class Text extends React.Component {
             <div>
                 <StyledContainer>
                     <StyledTitle>Text Area</StyledTitle>
-                    <StyledTextArea onChange={this.handleChange} />
+                    <StyledTextArea value={this.state.value}  value={this.state.header} onChange={this.handleChange} />
                 </StyledContainer>
                 <Previewer input={this.state.value} />
             </div>
