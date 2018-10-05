@@ -10,9 +10,9 @@ const StyledContainer = styled.div`
     height: 400px;
     padding: 12px 20px;
     box-sizing: border-box;
-    border: 2px solid #ccc;
+    border: 1px solid #ccc;
     border-radius: 4px;
-    background-color: #f8f8f8;
+    background-color: white;
     resize: none;
     border-radius: 20px;
     padding: 0.25em;
@@ -37,7 +37,7 @@ class Text extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            value: '# This is a Header',
+            value: '# This is a heading\n## This is a Sub-heading\nText attributes *italic*, **bold**, \n`monospace`, ~~strikethrough~~ .\n\n**Ussage:**\n  * Write markdown text in this textarea.\n * See the changes in the previewer\n\n **Numbered list:**\n  1. Item1\n2. Item2\n\n *[Checkout my gitHub for more projects](https://github.com/Lorenatacal)*'
         };
 
         this.handleChange = this.handleChange.bind(this);

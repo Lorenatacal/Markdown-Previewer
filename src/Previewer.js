@@ -9,12 +9,12 @@ const StyledContainer = styled.div`
 float:right;
 align:left;
 width: 45%;
-height: 400px;
+height: auto;
 padding: 12px 20px;
 box-sizing: border-box;
-border: 2px solid #ccc;
+border: 1px solid #ccc;
 border-radius: 4px;
-background-color: #f8f8f8;
+background-color: white;
 resize: none;
 border-radius: 20px;
 padding: 0.25em;
