@@ -27,6 +27,8 @@ const StyledReactMarkdown = styled(ReactMarkdown)`
 width: 98%;
 height: 70%;
 overflow-wrap: break-word;
+font-family: acme;
+font-size: 17px;
 `;
 
 const Previewer = props => {

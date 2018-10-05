@@ -26,6 +26,8 @@ const StyledContainer = styled.div`
 
 const StyledTitle = styled.h3`
     text-align: center;
+    font-family: acme;
+    font-size: 26px;
 `;
 
 const StyledTextArea = styled.textarea`
@@ -33,14 +35,14 @@ const StyledTextArea = styled.textarea`
     height: 60%;
     background-color: black;
     color: white;
-    font-size: 14.5px;
+    font-size: 15.5px;
 `;
 
 class Text extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            value: '# Welcome to the Markdown Previewer\n## The title was a header, this is a sub-header\n ### **Ussage:**\n * Write markdown text in this textarea.\n * See the changes in the previewer\n\n### **Text attributes in number list:**\n\n1. *italic*,\n2. **bold**,\n3. **_italic-bold_**\n4. `monospace`\n5. ~~strikethrough~~ \n\n*[Checkout my gitHub for more projects](https://github.com/Lorenatacal)*'
+            value: '# Welcome to the Markdown Previewer\n\n## The title was a header, this is a sub-header\n\n### **Ussage:**\n\n * Write markdown text in this textarea.\n * See the changes in the previewer\n\n### **Text attributes in number list:**\n\n1. *italic*,\n2. **bold**,\n3. **_italic-bold_**\n4. `monospace`\n5. ~~strikethrough~~ \n\n*[Checkout my gitHub for more projects](https://github.com/Lorenatacal)*'
         };
 
         this.handleChange = this.handleChange.bind(this);

@@ -8,8 +8,9 @@ const StyledHeader = styled.header`
     margin-bottom: 4em;
 `
 const StyledTitle = styled.h1`
-    font-size: 35px;
+    font-size: 45px;
     color: black;
+    font-family: notable;
 `
 
 const Header = function () {
