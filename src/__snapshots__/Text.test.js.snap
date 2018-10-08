@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text should render correctly 1`] = `
+<div>
+  <styled.div>
+    <styled.h3>
+      Type your text in the box using the instructions below:
+    </styled.h3>
+    <styled.textarea
+      onChange={[Function]}
+      value="# Welcome to the Markdown Previewer
+    
+    ## The title was a header, this is a sub-header
+    
+    ### **Ussage:**
+    
+     * Write markdown text in this textarea.
+     * See the changes in the previewer
+    
+    ### **Text attributes in number list:**
+    
+    1. *italic*,
+    2. **bold**,
+    3. **_italic-bold_**
+    4. \`monospace\`
+    5. ~~strikethrough~~ 
+    
+    *[Checkout my gitHub for more projects](https://github.com/Lorenatacal)*"
+    />
+  </styled.div>
+  <Previewer
+    input="# Welcome to the Markdown Previewer
+  
+  ## The title was a header, this is a sub-header
+  
+  ### **Ussage:**
+  
+   * Write markdown text in this textarea.
+   * See the changes in the previewer
+  
+  ### **Text attributes in number list:**
+  
+  1. *italic*,
+  2. **bold**,
+  3. **_italic-bold_**
+  4. \`monospace\`
+  5. ~~strikethrough~~ 
+  
+  *[Checkout my gitHub for more projects](https://github.com/Lorenatacal)*"
+  />
+</div>
+`;
