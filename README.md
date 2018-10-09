@@ -17,4 +17,8 @@ A React project in which the user can type a text in the left size and see the m
 
 ## Extra Info
 
-To style the project I have used Styled Components. This was great learning oportunity as I have imported and used for the first time ReactMarkdown Component.
+To style the project I have used Styled Components. This was great learning oportunity as I have imported and used for the first time ReactMarkdown Component. It also served as a great opportunity to practice my react skills and to to deepen my knowledge of the use of state and props in React.
+
+#### Testing
+
+ * To run the tests: ```click npm run test```
