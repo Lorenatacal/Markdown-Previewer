@@ -1,6 +1,6 @@
 # Markdown Previewer
 
-A React project in which the user can type a text in the left size and see the markdown previewer in the right.
+A React project in which the user can type a text in the left and see the markdown previewer in the right.
 
  * Install and start the app:
 
