@@ -60,7 +60,7 @@ class Text extends React.Component {
             <div>
                 <StyledContainer>
                     <StyledTitle>Type your text in the box using the instructions below:</StyledTitle>
-                    <StyledTextArea value={this.state.value} onChange={this.handleChange} />
+                    <StyledTextArea data-name="textarea" value={this.state.value} onChange={this.handleChange} />
                 </StyledContainer>
                 <Previewer input={this.state.value} />
             </div>
