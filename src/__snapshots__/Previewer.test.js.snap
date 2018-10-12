@@ -1,7 +1,57 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Previewer should render correctly with data 1`] = `
-<styled.div>
-  <Styled(ReactMarkdown) />
-</styled.div>
+<Previewer
+  value={
+    Object {
+      "value": "# Welcome to the Markdown Previewer
+    
+    ## The title was a header, this is a sub-header
+    
+    ### **Ussage:**
+    
+     * Write markdown text in this textarea.
+     * See the changes in the previewer
+    
+    ### **Text attributes in number list:**
+    
+    1. *italic*,
+    2. **bold**,
+    3. **_italic-bold_**
+    4. \`monospace\`
+    5. ~~strikethrough~~ 
+    
+    *[Checkout my gitHub for more projects](https://github.com/Lorenatacal)*",
+    }
+  }
+>
+  <styled.div>
+    <div
+      className="sc-bxivhb juhBrH"
+    >
+      <Styled(ReactMarkdown)>
+        <ReactMarkdown
+          astPlugins={Array []}
+          className="sc-ifAKCX cbJEgc"
+          escapeHtml={true}
+          plugins={Array []}
+          rawSourcePos={false}
+          renderers={Object {}}
+          skipHtml={false}
+          sourcePos={false}
+          transformLinkUri={[Function]}
+        >
+          <Root
+            className="sc-ifAKCX cbJEgc"
+            key="root-1-1"
+          >
+            <div
+              className="sc-ifAKCX cbJEgc"
+            />
+          </Root>
+        </ReactMarkdown>
+      </Styled(ReactMarkdown)>
+    </div>
+  </styled.div>
+</Previewer>
 `;
