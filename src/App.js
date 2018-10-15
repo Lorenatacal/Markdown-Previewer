@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Text from './Text'
 import Header from './Header'
 import './App.css';
-import Previewer from './Previewer';
-import ReactMarkdown from 'react-markdown';
 
 const App = props => {
   return (
